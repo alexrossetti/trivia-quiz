@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Trivia Quiz</title>
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+		  	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		  	crossorigin="anonymous">
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div id="categories">
+				<div style="width: 50%; border-bottom: 2px solid #66101F; padding: 10px; margin: 25px auto;">Select Category...</div>
+				<div id="all" class="category">All</div>
+				<div id="9" class="category">General Knowledge</div>
+				<div id="23" class="category">History</div>
+				<div id="22" class="category">Geography</div>
+				<div id="24" class="category">Politics</div>
+				<div id="18" class="category">Computing</div>
+				<div id="11" class="category">Film</div>
+				<div id="19" class="category">Maths</div>
+			</div>
+
+			<div class="question-box">
+				<div id="question"></div>
+				<div id="answers"></div>
+			</div>
+
+			<div id="score">
+				<div id="restart">Restart</div>
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="./main.js"></script>
+	</body>
+
+</html>
